@@ -33,13 +33,13 @@
                 {{ form.errors.translated_fields[field] | capitalize }}
                 {{ form.errors.messages[field] }}
               </a>
-            {%- endif-%}
+            {%- endif -%}
           </li>
         {%- endfor -%}
       </ul>
     {%- endif -%}
 
-    <div class="field">     
+    <div class="field">
       <input
         type="password"
         name="customer[password]"
@@ -64,7 +64,7 @@
       {%- endif -%}
     </div>
 
-    <div class="field">     
+    <div class="field">
       <input
         type="password"
         name="customer[password_confirmation]"
